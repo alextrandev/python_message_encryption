@@ -16,9 +16,16 @@ def main():
 def encrypt(input_pwd, master_pwd):
   master_pwd_values =  map_to_value(master_pwd)
   input_pwd_values = map_to_value(input_pwd)
-  return master_pwd_values
+  encrypted_pwd_values = combine_values(input_pwd_values, master_pwd_values)
+  return encrypted_pwd_values
 
 def map_to_value(string):
   return list(map(lambda i: CHARACTERS.index(i), string)) 
+
+def combine_values(values, master_values):
+  return list(map(
+    lambda i: (values[i] + master_values[i % len(master_values)]) % len(CHARACTERS),
+    range(len(values))
+  ))
 
 __name__ == "__main__" and main()
