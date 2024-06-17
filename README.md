@@ -1,6 +1,7 @@
 # Python message encryption
 
-This is a ...
+A message encryption/description python program which use a master password to hide any message
+This is the final assignment to Stanford Code in Place 2024 python course
 
 ## Functions:
 - ...
@@ -9,27 +10,25 @@ This is a ...
 
 Languages:
 
-- ...
+- Python
 
 Libraries and frameworks:
 
-- ...
-- [...](https://...)
+- [Pyscript](https://pyscript.com)
 
 ## Setup and usage
 
-**Live page [here](...)**
+**Live page [here](https://alextran.pyscriptapps.com/message-encryption/)**
 
 **To host project locally**
-- Clone the project: ```git clone https://github.com/alextrandev/....git```
-- Change working directory ```cd ...```
-- Install dependencies ```... install```
-- Serve project in local host ```...```
-
+- Clone the project: ```git clone https://github.com/alextrandev/python_message_encryption```
+- Change working directory ```cd python_message_encryption```
+- Run script in terminal ```python3 main.py``` 
+_make sure to have python version 3 installed before running the script_
 
 ## Screenshot
 **Homepage**
-![homepage screenshot](./...)
+![homepage screenshot](./assets/screenshots/screenshot.png)
 
 ## Sources 
 
