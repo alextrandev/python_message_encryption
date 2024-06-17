@@ -1,8 +1,8 @@
 # Python message encryption
 
-A message encryption/description python program which use a master password to hide any message
-This is the final assignment to Stanford Code in Place 2024 python course
-**Live page [here](https://alextran.pyscriptapps.com/message-encryption/)**
+- A message encryption/description python program which use a master password to hide any message
+- This is the final assignment to Stanford Code in Place 2024 python course
+**- Live page [here](https://alextran.pyscriptapps.com/message-encryption/)**
 
 ## Functions:
 
@@ -33,4 +33,5 @@ _make sure to have python version 3 installed before running the script_
 
 ## Sources 
 
-- [Stanford Code in Place](https://codeinplace.stanford.edu)
+- [Stanford Code in Place](https://codeinplace.stanford.edu) 
+_Thank you Chris, Mehran, our section leader and the whole community for a wonderful python journey_
