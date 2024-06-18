@@ -1,7 +1,7 @@
 """
 File: main.py
 -------------------
-An message encryption/description script which use a master password to hide any message
+A message encryption/description script which use a master password to hide any message
 """
 
 import encryption

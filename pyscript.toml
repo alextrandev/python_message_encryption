@@ -1,1 +1,6 @@
 name = "Message encryption"
+description = "A message encryption/description script which use a master password to hide any message"
+
+[files]
+"./decryption.py" = ""
+"./encryption.py" = ""
