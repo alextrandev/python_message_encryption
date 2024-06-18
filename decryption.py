@@ -7,10 +7,13 @@ Decrypt an encrypted message with a master password
 CHARACTERS = ['a', 'o', '3', 'b', 'p', 'L', 'e', ' ', 'u', 'k', 'G', 'q', 'f', 'N', 'j', 'W', 'X', '8', '6', '9', 'F', 'J', 'S', 's', '7', 'm', 'P', 'D', '2', 'I', 'E', 'C', 'K', '5', '0', 'R', 'd', 'h', 'H', 'n', 'r', 'B', 'V', 'T', 'c', 'v', 'Y', 'i', 'g', 'y', 'Q', 'M', 'A', 'U', '1', 't', 'z', 'w', 'Z', 'x', 'O', '4', 'l']
 
 def main():
+  print("------------------------------------------------")
   input_msg = input("Input your encrypted message: ")
   master_pwd = input("What's your master password? ")
   decrypted_msg = decrypt(input_msg, master_pwd)
-  print(f"Your original message is {decrypted_msg}")
+  print("Your original message is:")
+  print(decrypted_msg)
+  print("------------------------------------------------")
 
 def decrypt(input_msg, master_pwd):
   master_pwd_values =  map_to_value(master_pwd)

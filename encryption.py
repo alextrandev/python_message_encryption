@@ -7,10 +7,14 @@ Encrypt a message using a master password
 CHARACTERS = ['a', 'o', '3', 'b', 'p', 'L', 'e', ' ', 'u', 'k', 'G', 'q', 'f', 'N', 'j', 'W', 'X', '8', '6', '9', 'F', 'J', 'S', 's', '7', 'm', 'P', 'D', '2', 'I', 'E', 'C', 'K', '5', '0', 'R', 'd', 'h', 'H', 'n', 'r', 'B', 'V', 'T', 'c', 'v', 'Y', 'i', 'g', 'y', 'Q', 'M', 'A', 'U', '1', 't', 'z', 'w', 'Z', 'x', 'O', '4', 'l']
 
 def main():
+  print("------------------------------------------------")
   input_msg = input("Input your message to be encrypt: ")
   master_pwd = input("What's your master password? ")
   encrypted_msg = encrypt(input_msg, master_pwd)
-  print(f"Your encrypted message is {encrypted_msg}. Keep your master password safe for future decryption")
+  print("Your encrypted message is:")
+  print(encrypted_msg)
+  print("Keep your password safe for future decryption")
+  print("------------------------------------------------")
 
 def encrypt(input_msg, master_pwd):
   master_pwd_values =  map_to_value(master_pwd)
