@@ -4,6 +4,9 @@ File: main.py
 An message encryption/description script which use a master password to hide any message
 """
 
+import encryption
+import decryption
+
 def main():
   print("+-------------------------------------------+")
   print("|       Let's encrypt some messages!        |")
@@ -23,9 +26,9 @@ def main():
         print("Wrong command, try again!")
 
 def encrypt():
-  print("encrypt")
+  encryption.main()
 
 def decrypt():
-  print("decrypt")
+  decryption.main()
 
 __name__ == "__main__" and main()
